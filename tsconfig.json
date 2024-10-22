@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "declaration": true,
+    "jsx": "preserve", // Set to "preserve", "react", or "react-jsx"
+    "strict": true, // Enables all strict type-checking options
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Optional: skips type checking of declaration files
+    "outDir": "./dist" 
+  },
+  "include": ["src/**/*",   "**/*.ts", "**/*.tsx", "**/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
